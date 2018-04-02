@@ -1,26 +1,16 @@
 .App {
-  background: beige;
   min-height: 100vh;
   display: grid;
   grid-template-columns: 150px 1fr;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 1fr;
 }
-
-.Header {
-  background: salmon;
-  grid-row: 1;
-  grid-column: 1 / span 2;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-}
-
 .LeftMenu {
-  background: skyblue;
+  grid-row: 1;
   grid-column: 1;
-  grid-row: 2;
+  border: 1px solid black;
 }
 .List {
+  grid-row: 1;
   grid-column: 2;
-  grid-row: 2;
+  border: 1px solid black;
 }
