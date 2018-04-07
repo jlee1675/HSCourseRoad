@@ -11,7 +11,7 @@ class App extends Component {
       super(props);
       this.state = {
         courses: [],
-        years: [{Year: 'Freshman', Schedule: []}, {Year: 'Sophomore', Schedule: []}, {Year: 'Junior ', Schedule: []}, {Year: 'Senior', Schedule: []}]
+        years: [{Year: 'Freshman', Schedule: ['a', 'b']}, {Year: 'Sophomore', Schedule: ['a', 'b']}, {Year: 'Junior ', Schedule: ['a', 'b']}, {Year: 'Senior', Schedule: ['a', 'b']}]
       }
     this.add = this.add.bind(this);
 
@@ -24,7 +24,11 @@ class App extends Component {
     });
   }
   add(index) {
-    
+    /**
+     * TODO: onclick, change the setState of the years and shit ok
+     * Also add a dropdown of what year you want it or something to left menu
+     * 
+     */
   }
   render() {
     return (

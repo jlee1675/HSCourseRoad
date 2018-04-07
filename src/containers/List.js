@@ -21,9 +21,10 @@ class List extends Component {
     }
     render(){
         let years = this.props.years.map((task, i)=>(
+
             <div className="listItem" key={i}>
                 <div>{task.Year} </div>  
-                <div>{task.Schedule} </div>
+                <div>{task.Schedule}</div>
                 {/*<div onClick={() => {this.delete(i)}}>X</div>*/}
             </div>  
         ));
