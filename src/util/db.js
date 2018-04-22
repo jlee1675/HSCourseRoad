@@ -17,17 +17,5 @@ const db = firebase.firestore();
 
 export default db;
 
-// db.collection("users").add({
-//     firstName: "Ada",
-//     lastName: "Lovelace",
-//     class: 2015
-// })
-// .then(function(docRef) {
-//     console.log("Document written with ID: ", docRef.id);
-// })
-// .catch(function(error) {
-//     console.error("Error adding document: ", error);
-// });
-
 
 

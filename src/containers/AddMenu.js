@@ -38,8 +38,11 @@ class AddMenu extends Component {
                         <option value={s} key={i}>{s}</option>
                     ))}
                 </select>
-                <div>
-                    {this.state.courses.map((c,i) => <div key={i}>{c}</div>)}
+                <div >
+                    {this.state.courses.map((c,i) => {
+                        return(
+                            <div className="courses" key={i}>{c}</div>
+                    )})}
                 </div>
             </nav>
         )

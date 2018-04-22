@@ -1,0 +1,7 @@
+.courses {
+    border-bottom: 1px solid black;
+    margin: 2px;
+}
+.courses:last-child {
+    border-bottom: 1px solid white;
+}
